@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sv1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    fresco:actualImageScaleType="fitCenter"
+                    fresco:fadeDuration="0"
+                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:roundAsCircle="false" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="网络" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sv2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    fresco:actualImageScaleType="fitCenter"
+                    fresco:fadeDuration="0"
+                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:roundAsCircle="false" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="本地" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sv3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    fresco:actualImageScaleType="fitCenter"
+                    fresco:fadeDuration="0"
+                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:roundAsCircle="false" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="网络监听" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sv4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    fresco:actualImageScaleType="fitCenter"
+                    fresco:fadeDuration="0"
+                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:roundAsCircle="false" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="资源" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sv5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    fresco:actualImageScaleType="fitCenter"
+                    fresco:fadeDuration="0"
+                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:roundAsCircle="false" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="网络动图" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sv6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    fresco:actualImageScaleType="fitCenter"
+                    fresco:fadeDuration="0"
+                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:roundAsCircle="false" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="本地动图" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sv7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    fresco:actualImageScaleType="fitCenter"
+                    fresco:fadeDuration="0"
+                    fresco:placeholderImage="@mipmap/ic_launcher"
+                    fresco:roundAsCircle="false" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="资源动图" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
